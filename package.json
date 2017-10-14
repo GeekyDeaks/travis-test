@@ -1,0 +1,26 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "Repo for testing travis options",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekyDeaks/travis-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeekyDeaks/travis-test/issues"
+  },
+  "homepage": "https://github.com/GeekyDeaks/travis-test#readme",
+  "dependencies": {
+    "eslint": "^4.8.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "load-grunt-config": "^0.19.2",
+    "time-grunt": "^1.4.0"
+  }
+}
