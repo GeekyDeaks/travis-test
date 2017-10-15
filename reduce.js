@@ -15,3 +15,7 @@ const cm = ['log', 'info', 'warn', 'error']
 const pc = pick(c, cm)
 cm.reduce((n, v) => { n[v] = () => {}; return n }, c)
 Object.assign(c, pc)
+
+if(true) {
+  console.log('nothing')
+}
