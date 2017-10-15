@@ -1,9 +1,10 @@
 linters:
   eslint:
-    config: './eslintrc.json'
+    config: './eslintrc'
   shellcheck:
     shell: bash
-  files:
-    ignore:
-      - 'bower_components/*'
-      - 'node_modules/*'
+files:
+  ignore:
+    - 'bower_components/*'
+    - 'node_modules/*'
+    - 'reduce.js'
